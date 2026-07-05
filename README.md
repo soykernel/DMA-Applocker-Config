@@ -2,9 +2,9 @@
 A .bat utility to adjust MDM policies, to toggle unblocking of apps across sessions. REQUIRES ADMIN. 
 
 *How to use:*
-Download as a .bat file, you can choose to copy-paste this onto NotePad and save it as XXX.bat in All Files (NOT txt). You will need your parent admin credentials/other admin credentials to run this .bat file, using RUN AS ADMINISTRATOR. You can toggle Applocker on and off everytime you run it, no special edits required.
+Download as a .bat file, you can choose to copy-paste this onto NotePad and save it as XXX.bat in All Files (NOT txt). You will need your parent admin credentials/other admin credentials to run this .bat file, using RUN AS ADMINISTRATOR. You can toggle the bath file on and off everytime you run it as admin. First toggle turns it on (allows you to use all applications).
 
-Restarting/shutting down your PLD after running this batch file does not affect the changes made to Applocker, unless you toggle it back off.
+Restarting/shutting down your PLD after running this batch file does not affect the changes made to Applocker, unless you toggle it again.
 
 There are 2 versions to this code
 1. toggle(forcerestart).bat
