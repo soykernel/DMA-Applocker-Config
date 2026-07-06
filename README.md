@@ -19,7 +19,8 @@ A .bat utility to adjust MDM policies, to toggle unblocking of apps across sessi
    1. When you are finished using your unblocked software, close your applications.
    2. Right-click ENABLE and select Run as Administrator.
    3. A clean console stream will instantly compile default whitelists, reset folder permissions, wake your network hardware back up, and execute a Group Policy sync.
-   4. No restart is required. All third-party applications outside of official Windows system paths will instantly be blocked on your live desktop session.
+      (This step will likely trigger a few error messages on the console. This is perfectly normal and does not affect the intended outcome.)
+   5. No restart is required. All third-party applications outside of official Windows system paths will instantly be blocked on your live desktop session.
 
 
 ## Windows AppLocker Bypass & Enforcement Framework
