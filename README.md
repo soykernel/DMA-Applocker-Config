@@ -10,14 +10,14 @@ A .bat utility to adjust MDM policies, to toggle unblocking of apps across sessi
 ## Step-by-Step Usage Instructions## Phase 1: Bypassing Restrictions (Unlocking Your Apps)
 
    1. Close all active programs, projects, and work folders.
-   2. Right-click Disable_AppLocker.bat and select Run as Administrator.
+   2. Right-click DISABLE.bat and select Run as Administrator.
    3. The Command Prompt console will flash, wipe active rules, engage Airplane Mode, and immediately restart your machine.
    4. Log back into Windows. Your computer will be completely offline, and all previously blocked applications (such as Opera GX, alternate game launchers, or mod tools) will launch and execute freely.
 
 ## Phase 2: Restoring System Defense (Locking Apps Back Down)
 
    1. When you are finished using your unblocked software, close your applications.
-   2. Right-click Enable_AppLocker.bat and select Run as Administrator.
+   2. Right-click ENABLE and select Run as Administrator.
    3. A clean console stream will instantly compile default whitelists, reset folder permissions, wake your network hardware back up, and execute a Group Policy sync.
    4. No restart is required. All third-party applications outside of official Windows system paths will instantly be blocked on your live desktop session.
 
